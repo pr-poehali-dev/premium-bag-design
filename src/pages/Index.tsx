@@ -114,12 +114,9 @@ const Index = () => {
                     </div>
                   </div>
                   
-                  <div className="flex items-center justify-between">
-                    <span className="text-3xl font-bold">45 990 ₽</span>
-                    <Button className="bg-gold hover:bg-gold/90 text-black">
-                      Заказать
-                    </Button>
-                  </div>
+                  <Button className="bg-gold hover:bg-gold/90 text-black w-full">
+                    Заказать
+                  </Button>
                 </div>
               </div>
             </Card>
@@ -233,11 +230,13 @@ const Index = () => {
               Премиальные кожаные изделия из Италии
             </p>
             <div className="flex justify-center gap-6 mb-8">
-              <a href="#" className="hover:text-gold transition-colors">
-                <Icon name="Instagram" size={24} />
+              <a href="https://vk.com/public232217754" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors" aria-label="VK">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm6.066 13.854c.484.51 1.003 1.004 1.446 1.553.195.243.38.494.539.77.225.392.02.822-.185.843h-2.413c-.315.026-.607-.108-.853-.31-.196-.16-.377-.337-.559-.51-.077-.074-.154-.147-.235-.217-.315-.274-.591-.512-.953-.446-.362.066-.452.412-.473.756-.021.405.004.648-.219.824-.419.331-1.253.267-2.213.02-1.024-.263-1.935-.834-2.703-1.602-1.35-1.35-2.394-2.923-3.312-4.604-.09-.165-.01-.396.15-.436l2.354-.003c.185-.007.308.096.385.253.376.761.802 1.477 1.312 2.134.132.17.265.34.434.472.192.151.34.045.427-.138.056-.117.08-.243.092-.37.048-.489.054-.976-.012-1.465-.037-.276-.177-.456-.453-.506-.141-.025-.12-.074-.052-.149.107-.118.208-.192.408-.192h2.818c.223.044.272.145.303.369l.001 1.575c-.002.117.059.465.27.542.169.055.28-.078.381-.178.457-.453.783-.994 1.084-1.553.134-.248.25-.507.362-.767.083-.193.213-.29.435-.285l2.653.001c.079 0 .159.001.237.013.313.048.399.171.302.477-.168.532-.539 1.002-.874 1.481-.359.512-.742 1.008-1.095 1.527-.324.476-.297.714.084 1.134z"/>
+                </svg>
               </a>
               <a href="#" className="hover:text-gold transition-colors">
-                <Icon name="Facebook" size={24} />
+                <Icon name="Instagram" size={24} />
               </a>
               <a href="#" className="hover:text-gold transition-colors">
                 <Icon name="Mail" size={24} />
